@@ -1,0 +1,217 @@
+@charset "UTF-8";
+html {
+  font-size: 62.5%;
+  font-family: "微软雅黑", "Microsoft yahei"; }
+
+body, h1, h2, h3, h4, h5, h6, blockquote, ol, ul, dl, dd, p, textarea, input, select, option, form {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #f5f4f0;
+  -webkit-tap-highlight-color: transparent; }
+
+ol, ul, textarea, input, option, th, td {
+  padding: 0; }
+
+.page {
+  min-width: 320px;
+  max-width: 750px;
+  margin: 0 auto; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 100%; }
+
+article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+  display: block; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+ul, ol {
+  list-style-type: none; }
+
+.clearfix:after {
+  content: '.';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+.clear {
+  clear: both;
+  height: 0;
+  overflow: hidden; }
+
+/* ios默认文本框阴影 */
+input[type=text], textarea {
+  -webkit-appearance: none; }
+
+/* 低版本安卓文本框层级问题 */
+input:focus {
+  -webkit-user-modify: read-write-plaintext-only; }
+
+fieldset, img {
+  border: 0; }
+
+a {
+  text-decoration: none; }
+
+a, textarea, input {
+  outline: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+textarea {
+  overflow: auto;
+  resize: none; }
+
+@media only screen and (min-width: 320px) {
+  html {
+    font-size: 75% !important;
+    /* 12÷16=73.4% */ } }
+
+@media only screen and (min-width: 375px) {
+  html {
+    font-size: 87.89063% !important;
+    /* 14.0625÷16=73.2% */ } }
+
+@media only screen and (min-width: 414px) {
+  html {
+    font-size: 97.03% !important;
+    /* 15.525÷16=94% */ } }
+
+@media only screen and (min-width: 480px) {
+  html {
+    font-size: 112.5% !important;
+    /* 18÷16=94% */ } }
+
+@media only screen and (min-width: 560px) {
+  html {
+    font-size: 131.25% !important;
+    /* 21÷16=109% */ } }
+
+@media only screen and (min-width: 640px) {
+  html {
+    font-size: 150% !important;
+    /* 24÷16=125% */ } }
+
+@media only screen and (min-width: 720px) {
+  html {
+    font-size: 168.75% !important;
+    /* 27÷16=146.43% */ } }
+
+@media only screen and (min-width: 750px) {
+  html {
+    font-size: 175.78125% !important;
+    /* 28.125÷16=146.43% */ } }
+
+@media only screen and (min-width: 800px) {
+  html {
+    font-size: 187.5% !important;
+    /* 30÷16=146.43% */ } }
+
+@media only screen and (min-width: 960px) {
+  html {
+    font-size: 225% !important;
+    /* 36÷16=146.43% */ } }
+
+@media only screen and (min-width: 1080px) {
+  html {
+    font-size: 253.125% !important;
+    /* 36÷16=146.43% */ } }
+
+.hide {
+  display: none; }
+
+header {
+  height: 3.65432rem;
+  background-color: #fb6650;
+  font-size: 1.23457rem;
+  color: #fff;
+  line-height: 3.65432rem;
+  text-align: center; }
+
+nav {
+  height: 3.25926rem;
+  border-top: 1px solid #e0e0d8;
+  border-bottom: 1px solid #e0e0d8;
+  line-height: 3.25926rem;
+  padding: 0 4.93827rem;
+  background-color: #fff; }
+  nav ul {
+    width: 100%;
+    height: 100%; }
+    nav ul li {
+      float: left;
+      width: 33.3%;
+      text-align: center;
+      color: #2d2d2d;
+      height: 100%; }
+    nav ul li.active {
+      box-sizing: border-box;
+      border-bottom: 4px solid #fa684f;
+      height: 100%; }
+
+section {
+  background-color: #f0eee2;
+  padding: 1.11111rem; }
+  section .unused {
+    background-color: #fff;
+    background-image: url("../images/off-bg1.png");
+    background-repeat: repeat-x;
+    height: 8.14815rem;
+    background-size: 100% 1rem;
+    margin-bottom: 1.11111rem;
+    padding: 1.23457rem 1.11111rem 0.88889rem 1.11111rem;
+    box-sizing: border-box; }
+    section .unused .off {
+      float: left;
+      width: 8.39506rem;
+      height: 100%;
+      border-right: 1px dashed #cbcbcb;
+      box-sizing: border-box; }
+      section .unused .off span {
+        font-size: 1.08642rem;
+        color: #fd664b;
+        margin-left: 0.98765rem; }
+      section .unused .off strong {
+        font-size: 2.76543rem;
+        color: #fd664b; }
+      section .unused .off p {
+        font-size: 1.18519rem; }
+    section .unused .time {
+      float: left;
+      width: 10.8642rem;
+      margin-left: 2.46914rem;
+      height: 100%; }
+      section .unused .time h3 {
+        font-size: 1.18519rem;
+        text-align: right;
+        line-height: 2.96296rem;
+        height: 2.96296rem;
+        border-bottom: 1px solid #cbcbcb; }
+      section .unused .time p {
+        line-height: 1.97531rem;
+        padding-top: 0.49383rem;
+        height: 1.97531rem;
+        text-align: right;
+        color: #333; }
+  section .btn {
+    display: block;
+    width: 100%;
+    margin-top: 0.37037rem;
+    height: 2.71605rem;
+    border-radius: 5px;
+    line-height: 2.71605rem;
+    text-align: center;
+    background-color: #fb6650;
+    color: #fff;
+    font-size: 1.08642rem; }

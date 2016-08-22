@@ -1,0 +1,163 @@
+@import "mobile";
+body,html{
+	width:100%;
+	height:100%;
+}
+.hide{
+	display: none;
+}
+header{
+	height: pxToRem(60);
+	background:linear-gradient(#3a3a3a,#683f32);
+	padding:pxToRem(48) pxToRem(20) pxToRem(20) pxToRem(20);
+	.wrapper-search{
+		height: 100%;
+		border-radius: 5px;
+		overflow: hidden;
+		width:100%;
+		.search{
+			height: pxToRem(60);
+			line-height: pxToRem(60);
+			font-size: pxToRem(36);
+			background:linear-gradient(#7b7878,#876960);
+			border: 0 none;
+			width:100%;
+			box-sizing: border-box;
+			padding:0 pxToRem(60) 0 pxToRem(36);
+
+		}
+	}
+}
+
+section{
+	#banner{
+		height: pxToRem(368);
+		width:100%;
+		background:url("../img/图案-拷贝-2.png");
+		background-size: 100% 100%;
+		dl{
+			padding:pxToRem(168) pxToRem(40) pxToRem(60) pxToRem(50);
+			height: pxToRem(140);
+			dt{
+				float: left;
+				height: pxToRem(140);      
+				width:pxToRem(140);
+				background:url("../img/图层-2.png");
+				background-size: 100% 100%;
+			}
+			dd{
+				float: left;
+				margin-left: pxToRem(30);
+				color: #fff;
+				p{
+					font-size: pxToRem(31);
+					width:pxToRem(380);
+					padding-top: 0;
+				
+				}
+				span{ 
+					color:#fff;
+					font-size: pxToRem(24);
+				}
+				i{
+					height: pxToRem(30);
+					width:pxToRem(198);
+					background:url("../img/星级-拷贝-5.png");
+					background-size: 100% 100%;
+					display: block;
+				}
+			}
+		}
+	}
+	nav{
+		height: pxToRem(90);
+		line-height: pxToRem(90);
+		ul{
+			height: pxToRem(90);
+			width:pxToRem(480);
+			margin: 0 auto;
+			li{
+				float: left;
+				position: relative;
+				width:pxToRem(120);
+				height: pxToRem(90);
+				font-size: pxToRem(28);
+				text-align: center;
+				margin-right: pxToRem(30);
+			li:last-child{
+				margin: 0;
+			}	
+				span{
+					position: absolute;
+					bottom: 0;
+					left:0;
+					height: pxToRem(4);
+					width:pxToRem(120);
+					background-color: #00b555;
+				}
+			}
+			.active{
+				color: #00b555;
+			}
+		}
+	}
+	.info{
+		background-color: #f5f4f0;
+		padding:pxToRem(20) pxToRem(20) pxToRem(30) pxToRem(20);
+		.pic{	
+			padding:pxToRem(30) pxToRem(30) pxToRem(30) pxToRem(30);
+			background-color: #fff;
+			
+			p{
+				padding-bottom: pxToRem(18);
+				color: #CCC;
+				font-size: pxToRem(24);
+			}
+			div{
+				width:pxToRem(540);
+				height: pxToRem(304);
+				position: relative;
+				img{
+				width:pxToRem(540);
+				height: pxToRem(304);	
+				}
+				i{
+						position: absolute;
+						left:0;
+						top:0;
+						right:0;
+						bottom:0;
+						margin:auto;
+						height: pxToRem(80);
+						width:pxToRem(80);
+						background:url("../img/矢量智能对象-拷贝-3.png");
+						background-size: cover;
+				}
+			
+			}
+		}
+		.intr{
+			padding:pxToRem(0) pxToRem(30) pxToRem(30) pxToRem(30);
+			background-color: #fff;
+			// div{
+			// 	background:#fff;
+			// 	padding:pxToRem(30);
+					h3{
+					padding-bottom: pxToRem(18);
+					color: #CCC;
+					font-size: pxToRem(24);
+				}
+				p{
+					font-size: pxToRem(28);
+					color: #333;
+				}
+			// }
+		}	
+	}
+	
+}
+
+.teacher{
+	background-color: #f5f4f0;
+	padding:pxToRem(20) pxToRem(20) pxToRem(30) pxToRem(20);
+}

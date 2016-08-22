@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>乐享厨房</title>
+	<meta name="viewport" content="initial-scale=1,width=device-width,maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+
+</head>
+<body>
+	<header>
+		<div class="swiper-container" id='main-swiper'>
+			<div class="swiper-wrapper">
+				<div class="swiper-slide slide1">1</div>
+				<div class="swiper-slide slide2">2</div>
+				<div class="swiper-slide slide3">3</div>
+			</div>
+			<div class="swiper-pagination"></div>
+		</div>
+		<div class="search"><input id="txt" type="text" placeholder="搜菜谱、食材、相克等"></div>
+	</header>
+	<section>
+		<nav>
+		<ul>
+			<li>
+				<dl>
+					<dt><img src="../images/nav_01.png"></dt>
+					<dd>今日佳作</dd>
+				</dl>
+			</li>
+			<li>
+				<dl>
+					<dt><img src="../images/nav_02.png"></dt>
+					<dd>美食养生</dd>
+				</dl>
+			</li>
+			<li>
+				<dl>
+					<dt><img src="../images/nav_03.png"></dt>
+					<dd>美食视频</dd>
+				</dl>
+			</li>
+			<li>
+				<dl>
+					<dt><img src="../images/nav_04.png"></dt>
+					<dd>菜谱分类</dd>
+				</dl>
+			</li>
+		</ul>
+
+		</nav>
+
+		<div class="info">
+		<h2>香哈头条<i></i></h2>
+			<dl>
+				<dt><img src="../images/toutiao1.png"></dt>
+				<dd>
+					<h3>皮肤暗黄，如何美白，推荐4种美白食物</h3>
+					<p><span>美食杂谈</span><strong >5评论</strong><strong>1200浏览</strong></p>
+				</dd>
+			</dl>
+			<dl>
+				<dt><img src="../images/toutiao1.png"></dt>
+				<dd>
+					<h3>皮肤暗黄，如何美白，推荐4种美白食物</h3>
+					<p><span>美食杂谈</span><strong >5评论</strong><strong>1200浏览</strong></p>
+				</dd>
+			</dl>
+			<dl>
+				<dt><img src="../images/toutiao1.png"></dt>
+				<dd>
+					<h3>皮肤暗黄，如何美白，推荐4种美白食物</h3>
+					<p><span>美食杂谈</span><strong >5评论</strong><strong>1200浏览</strong></p>
+				</dd>
+			</dl>
+		</div>
+	</section>
+	<div class="footer-container">
+		
+	</div>
+	<script type="text/javascript" src="../js/sea.js"></script>
+	<script type="text/javascript">
+		seajs.use(['index','loadfooter'],function(app,load){
+			app.init();
+			app.drag();
+			app.search();
+			load.loadHtml()
+	})
+		</script>
+</body>
+</html>

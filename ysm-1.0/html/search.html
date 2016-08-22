@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1,width=device-width,maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<title>搜索</title>
+	<link rel="stylesheet" type="text/css" href="../css/search.css">
+</head>
+<body>
+	<header>
+	<a href=""></a>
+		<div class="search"><input type="text" id="txt"></div>
+	<a id="btn">搜索</a>
+	</header>
+	<nav>
+		<ul>
+			<li>全部</li>
+			<li class="active">食材</li>
+			<li>菜谱</li>
+			<li>头条</li>
+			<li>养生</li>
+		</ul>
+	</nav>
+	<section>
+		
+
+	<div class="ad">
+		<img src="../images/ad.jpg">
+	</div>
+
+	<!-- 热搜榜 -->
+	<div class="hot">
+	<h3>热搜榜</h3>	
+		<ul>
+			<li>清炒土豆丝</li>
+			<li>可乐鸡翅</li>
+			<li>面包</li>
+		</ul>
+		<ul>
+			<li>鱼类</li>
+			<li>牛肉</li>
+			<li>猪肉</li>
+		</ul>
+		<ul>
+			<li>煲汤</li>
+			<li>鸡</li>
+			<li>南瓜饼</li>
+		</ul>
+	</div>
+
+
+	<div class="history">
+		<h3>搜索历史</h3>
+		<ul>
+			<li>煲汤</li>
+			<li>鸡</li>
+			<li>南瓜饼</li>
+		</ul>
+	</div>
+
+	</section>
+
+		<script type="text/javascript" src="../js/sea.js"></script>
+	<script type="text/javascript">
+		seajs.use(['search'],function(Query){
+			Query.getName();
+			Query.getList();
+			Query.toDetail();
+			Query.click();
+		
+		})
+		</script>
+</body>
+</html>
