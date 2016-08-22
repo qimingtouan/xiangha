@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>菜谱分类</title>
+	<link rel="shortcut icon" href="../img/bitbug_favicon.ico" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+	<link rel="stylesheet" type="text/css" href="../css/classify.css">
+</head>
+<body>
+	<header><span>&lt;</span>菜谱分类</header>
+	<section>
+		<div class="search">
+			<input type="" name="" placeholder="搜菜谱 如：糖醋排骨 或鸡蛋" id="tcl-search"><span></span>
+		</div>
+		<div class="main">
+			<div class="slideNav">
+				<ul id="tList">
+					<li class="active" data-name="fish">鱼类</li>
+					<li data-name="dou">豆类</li>
+					<li data-name="vegetable">蔬菜</li>
+					<li>果品类</li>
+					<li>五谷杂粮</li>
+					<li>药食</li>
+					<li>调味品</li>
+					<li>其他</li>
+					<li>菜式</li>
+					<li>菜系</li>
+				</ul>
+			</div>
+			<div class="rightItem">
+				<div class="tBanner"><a href="###"></a></div>
+				<h3 id="tname">鱼类</h3>
+				<div id="tDfish">
+					<a href="###" data-cname="鲫鱼">鲫鱼</a>
+					<a href="###" data-cname="鳝鱼">鳝鱼</a>
+					<a href="###" data-cname="带鱼">带鱼</a>
+					<a href="###" data-cname="金枪鱼">金枪鱼</a>
+					<a href="###" data-cname="烤鱼">烤鱼</a>
+<!-- 					<a href="###">鲢鱼</a>
+					<a href="###">青鱼</a>
+					<a href="###">鲫鱼</a>
+					<a href="###">银鱼鱼</a>
+					<a href="###">罗非鱼</a>
+					<a href="###">武昌鱼</a>
+					<a href="###">青鱼</a>
+					<a href="###">鲫鱼</a>
+					<a href="###">银鱼鱼</a> -->
+				</div>
+			</div>
+		</div>
+	</section>
+	<script type="text/javascript" src='../js/sea.js'></script>
+	<script type="text/javascript">
+		seajs.use(['classify.js'],function(obj){
+			obj.touch();
+			obj.toDetails();
+		})
+	</script>
+</body>
+</html>
+
+
+
+
+
+
