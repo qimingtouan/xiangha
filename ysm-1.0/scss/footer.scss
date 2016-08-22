@@ -1,0 +1,44 @@
+@import 'mobile';
+.footer-container{
+	height:pxToRem(150);
+}
+footer {
+  width: 100%;
+  height: pxToRem(150);
+  background: #fefefe;
+  position: fixed;
+  bottom: 0;
+  z-index: 999; 
+	ul{
+		width:100%;
+    	li{
+    	width: 20%;
+	      height:pxToRem(150);
+	      position: relative;
+	      color: #929292;
+	      float:left;
+	      .icon{
+      	 	display: block;
+	        width: 100%;
+	        height:  pxToRem(66);
+	        text-align: center;
+	        line-height: pxToRem(66);
+	        padding-top:pxToRem(24);
+	        font-size:pxToRem(48);
+	        font-family: $yh;
+	      }
+	      .txt{
+	      	display: block;
+	        width: 100%;
+	        height: pxToRem(60);
+	        text-align: center;
+	        line-height: pxToRem(60);
+	        font-size: pxToRem(32);
+	        font-family:  $yh;
+	      	}
+    	}
+    	.active{
+    		color: #ee444d; 
+    	}
+	}
+}

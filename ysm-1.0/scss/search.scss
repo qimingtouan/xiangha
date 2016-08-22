@@ -1,0 +1,145 @@
+@import 'mobile';
+
+header{
+	height:pxToRem(90);
+	background-color: #fb6650;
+	padding:pxToRem(34) pxToRem(100)  pxToRem(24) pxToRem(90) ;
+	position:relative;
+	input{
+		height: pxToRem(90);
+		width: pxToRem(590);
+		line-height: pxToRem(90);
+		padding-left: pxToRem(200);
+		background-color: #e0412c;
+		border: 0 none;
+		border-radius: 5px;
+		color:#fff;
+	}
+	#btn{
+		position: absolute;
+		right:pxToRem(45);
+		bottom:pxToRem(20);
+		display: block;
+		font-size: pxToRem(46);
+		color: #fff;
+		text-align: center;
+		width:pxToRem(120);
+		height: pxToRem(90);
+		line-height: pxToRem(90);
+
+	}
+}
+
+
+.ad{
+	background-color: #efefef;
+	padding:pxToRem(40) pxToRem(30);
+	height:pxToRem(260);
+	img{
+		height:pxToRem(260);
+		width:100%;
+	}
+}
+nav{
+	height: pxToRem(108);
+	border-top:1px solid #e0e0d8;
+	border-bottom: 1px solid #e0e0d8;
+	line-height: pxToRem(108);
+	padding:0 pxToRem(50);
+	background-color: #fff;
+	ul{
+		width: 100%;
+		height: 100%;
+		li{
+			float: left;
+			width: 20%;
+			text-align: center;
+			color: #2d2d2d;
+			height: 100%;
+		}
+		li.active{
+			box-sizing: border-box;
+			border-bottom: 2px solid #fa684f;
+			height: 100%;
+			color:#fa684f;
+		}
+	}
+
+}
+
+.hot,.history{
+	h3{
+		font-size: pxToRem(44);
+		color: #333;
+		height: pxToRem(100);
+		padding-left:pxToRem(44);
+		line-height: pxToRem(100);
+		background-color: #fff;
+	}
+	ul{
+		width:100%;
+		border-top: 1px solid #dfdfdf;
+		height: pxToRem(144);
+		font-size: pxToRem(44);
+		line-height: pxToRem(144);
+		li{
+			float: left;
+			width:33.3%;
+			border-right: 1px solid #dfdfdf;
+			box-sizing: border-box;
+			height: pxToRem(144);
+			background-color: #fefefe;
+			text-align: center;
+		}
+		li:last-child{
+			border-right:0 none;
+		}
+	}
+}
+
+section{
+	
+	dl{
+		height: pxToRem(224);
+		width:100%;
+		border-bottom: 2px solid #dedede;
+		padding:pxToRem(35) pxToRem(40);
+		background-color: #fff;
+		dt{
+			float: left;
+			height:100%;
+			width: pxToRem(300);
+			img{
+
+				width: pxToRem(300);
+				height:pxToRem(224);
+			}
+		}
+		dd{
+			float:left;
+			width:pxToRem(670);
+			margin-left: pxToRem(30);
+			h3{
+				height: pxToRem(80);
+				font-size: pxToRem(46);
+				line-height: pxToRem(80);
+				margin-left: pxToRem(20);
+				width:100%;
+
+			}
+			p{
+				color: #9a9a9a;
+				height: pxToRem(60);
+				line-height: pxToRem(60);
+				overflow: hidden;
+				text-overflow:ellipsis;
+				white-space:nowrap;
+				strong{
+					float:right;
+					margin-left:pxToRem(20);
+					font-weight: 100;
+				}
+			}
+		}
+	}
+}

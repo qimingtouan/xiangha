@@ -1,0 +1,28 @@
+@import 'mobile';
+header{
+	height: pxToRem(148);
+	line-height: pxToRem(148);
+	text-align: center;
+	background-color: #fb6650;
+	color: #fff;
+	font-size: pxToRem(64);
+
+}
+section{
+	padding:pxToRem(40) pxToRem(45);
+	img{
+		width:pxToRem(990);
+		height:pxToRem(540);
+	}
+	h2{
+		height: pxToRem(90);
+		line-height: pxToRem(90);
+		font-size: pxToRem(54);
+		color: #000;
+		padding: pxToRem(30) 0 pxToRem(10);
+	}
+	p{
+		color: #666;
+		line-height: pxToRem(66);
+	}
+}

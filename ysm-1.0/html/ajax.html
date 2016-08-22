@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="../js/jquery-1.10.1.min.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+	$.ajax({
+		url:"http://www.tngou.net/api/food/name",
+		type:"get",
+		data:{
+			name:"土豆"
+		},
+		dataType:"jsonp",
+		success:function(data){
+			console.log(data)
+			}
+		})
+	</script>
+</body>
+</html>

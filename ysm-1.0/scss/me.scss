@@ -1,0 +1,122 @@
+@import 'mobile';
+
+header{
+	height: pxToRem(174);
+	background-color: #fb6650;
+	padding:pxToRem(158) pxToRem(46) pxToRem(60) pxToRem(46);
+	position: relative;
+	a{
+		position: absolute;
+		right:pxToRem(46);
+		top:pxToRem(105);
+		color: #fff;
+	}
+	dl{
+		height: pxToRem(174);
+		dt{
+			height: pxToRem(174);
+			width:pxToRem(174);
+			float: left;
+			img{
+				height: pxToRem(174);
+				width:pxToRem(174);
+			}
+		}
+		dd{
+			margin-left: pxToRem(30);
+			color: #fff;
+			float: left;
+			h3{
+				font-size: pxToRem(50);
+				font-weight: 700;
+				height: pxToRem(94);
+				line-height: pxToRem(94);
+			}
+			p{
+				font-size:pxToRem(40.5);
+				height:pxToRem(80);
+				line-height: pxToRem(80);
+			}
+		}
+	}
+		
+}
+
+nav{
+	border-top: 1px solid #e2dde1;
+	ul{
+		width:100%;
+		height: pxToRem(130);
+		padding:pxToRem(36) 0 pxToRem(26) 0;
+		background-color: #fefefe;
+		li{
+			float: left;
+			width:25%;
+			text-align: center;
+			b{
+				font-weight: 100;
+				height: pxToRem(65);
+				line-height: pxToRem(65);
+				color: #333;
+			}
+			p{
+				height: pxToRem(65);
+				line-height: pxToRem(65);
+				color: #838383;
+			}
+		}
+	}
+}
+.caipu{
+	padding:pxToRem(40) pxToRem(46);
+	background-color: #f0eee2;
+	height: pxToRem(134);
+	background-color: #f0eee2;
+	div{
+		float: left;
+		width:pxToRem(480);
+		line-height: pxToRem(134);
+		text-align: center;
+		color: #2c2c2c;
+		background-color: #fefefe;
+	}
+	.write{
+		margin-right: pxToRem(28);
+
+	}
+}
+.module{
+	ul{
+		width:100%;
+		border-bottom: 1px solid #dfdfdf;
+		height: pxToRem(242);
+
+		li{
+			float: left;
+			width:33.3%;
+			border-right: 1px solid #dfdfdf;
+			padding:pxToRem(20) 0;
+			box-sizing: border-box;
+			height: pxToRem(242);
+			background-color: #fefefe;
+			text-align: center;
+			i{
+				font-weight: 100;
+				height: pxToRem(102);
+				line-height: pxToRem(102);
+				color: #333;
+				font-size: pxToRem(81);
+				display: block;
+				color: #e28d31;
+			}
+			p{
+				height: pxToRem(100);
+				line-height: pxToRem(100);
+				color: #838383;
+			}
+		}
+		li:last-child{
+			border-right: 0 none;
+		}
+	}
+}

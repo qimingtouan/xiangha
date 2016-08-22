@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>美食养生</title>
+	<meta name="viewport" content="initial-scale=1,width=device-width,maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="../css/yangsheng.css">
+
+</head>
+<body>
+	<header>
+		<h1>美食养生</h1>
+	</header>
+	<div class="search">
+		<input type="text" placeholder="搜索养生 如鸡蛋" id="txt">
+	</div>
+	<section>
+		<nav>
+			<ul id="list">
+				<li class="active">养生保健</li>
+				<li>癌症</li>
+				<li>男性</li>
+				<li>女性</li>
+				<li>呼吸道</li>
+				<li>心脏</li>
+				<li>神经系统</li>
+				<li>肌肉骨骼</li>
+				<li>其他</li>
+				<li>美容减肥</li>
+				<li>孕前哺乳</li>
+				<li>经期</li>
+				<li>肝胆脾胰</li>
+				<li>五官</li>
+				<li>血管</li>
+			</ul>
+		</nav>
+		<div class="content">
+			<ul>
+				<li >鱼类</li>
+				<li>鱼类</li>
+				<li>鱼类</li>
+			</ul>
+			<ul>
+				<li>鱼类</li>
+				<li>鱼类</li>
+				<li>鱼类</li>
+			</ul>
+		</div>
+	</section>
+	<div class="footer-container">
+		
+	</div>
+	<script type="text/javascript" src="../js/sea.js"></script>
+	<script type="text/javascript">
+		seajs.use(['yangsheng'],function(yangs){
+			yangs.tab();
+			yangs.search();
+		
+		})
+		</script>
+</body>
+</html>
